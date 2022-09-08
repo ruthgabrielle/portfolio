@@ -1,12 +1,8 @@
 import "./index.css";
-import Me from "../../assets/img/me.jpg";
 
 const Intro = () => {
   return (
     <div className="i">
-      <div className="i-img-wrapper">
-        <img src={Me} alt="" className="i-img" />
-      </div>
       <div className="i-left">
         <div className="left-wrapper">
           <h2 className="i-intro">Hello, my name is</h2>
